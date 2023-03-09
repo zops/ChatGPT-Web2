@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://avatars.githubusercontent.com/u/76082537?v=4',
+      avatar: 'https://www.cnsre.cn/images/whoami/avatar.jpg',
       name: '',
       description: '<a href="https://www.cnsre.cn" class="text-blue-500" target="_blank" >SRE运维博客</a>',
     },
